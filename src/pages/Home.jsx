@@ -8,7 +8,11 @@ function Home() {
       <section className="container py-5 text-center">
         <div className="row align-items-center">
           <div className="col-md-6 mt-4 mt-md-0">
-            <img src="/her.jpg" alt="Hero" className="img-fluid rounded" />
+            <img
+              src={`${import.meta.env.BASE_URL}her.jpg`}
+              alt="Hero"
+              className="img-fluid rounded"
+            />
           </div>
           <div className="col-md-6 text-md-start text-center">
             <h1 className="fw-bold mb-3">مرحبًا بك في نوفا ستور</h1>
@@ -51,7 +55,9 @@ function Home() {
             <div className="col-md-4">
               <div className="card shadow-sm h-100">
                 <img
-                  src="/images/Laptop/MacBook Pro 14-inch.jpg"
+                  src={`${
+                    import.meta.env.BASE_URL
+                  }images/Laptop/MacBook Pro 14-inch.jpg`}
                   className="card-img-top"
                   alt="product"
                   style={{ height: "350px" }}
@@ -69,7 +75,9 @@ function Home() {
             <div className="col-md-4">
               <div className="card shadow-sm h-100">
                 <img
-                  src="/images/headphones/Apple AirPods Pro.jpg"
+                  src={`${
+                    import.meta.env.BASE_URL
+                  }images/headphones/Apple AirPods Pro.jpg`}
                   className="card-img-top"
                   alt="product"
                   style={{ height: "350px" }}
