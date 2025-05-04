@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import CartPage from "./pages/CartPage";
-// import About from "./pages/About";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
